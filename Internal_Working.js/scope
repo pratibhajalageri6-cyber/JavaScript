@@ -1,0 +1,46 @@
+ //!Block Scope
+
+// let flag=true
+
+// if(flag)
+// {
+//     let data=100
+//     console.log("value of data is "+data);
+// }
+// else{
+//     let data=300
+//     console.log("value of data is "+data);
+// }
+// console.log(data);
+
+
+//!var keyword
+
+// let flag=true
+
+// if(flag)
+// {
+//     var data=100
+//     console.log("value of data is "+data);
+// }
+// else{
+//     var data=300
+//     console.log("value of data is "+data);
+// }
+// console.log(data);
+
+
+//!!!!!!!!!!!!!!!!!!!!!
+
+let data1='somu'
+function outerFunction(){
+    let data2='rani'
+    function innerFunction(){
+        let data3='raja'
+        console.log(data1);
+        console.log(data2);
+        console.log(data3);   
+    }
+    innerFunction()
+}
+outerFunction()
