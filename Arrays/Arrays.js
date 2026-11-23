@@ -150,3 +150,5 @@ let arr=[2,4,6,9]
 let data=['red','white','green']
 console.log(arr.every((num)=>num%2 === 0));
 console.log(arr.every((data)=>data !== undefined));
+
+

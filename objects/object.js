@@ -108,24 +108,24 @@
 // console.log(xyz.age);
 
 
-let userInformation ={
-    name:"somu",
-    IsLoggedIn:true,
-    age:23,
+// let userInformation ={
+//     name:"somu",
+//     IsLoggedIn:true,
+//     age:23,
 
-    redaing:function(){
-        console.log("somu is reading");
-    },
-    sleeping:function(){
-        console.log("somu is sleeping");
-    },
-    FavColors:['red','green','black'],
-    address:{
-        city:"pune",
-        pincode:12345,
-    },
-    7:'Favnum'
-}
+//     redaing:function(){
+//         console.log("somu is reading");
+//     },
+//     sleeping:function(){
+//         console.log("somu is sleeping");
+//     },
+//     FavColors:['red','green','black'],
+//     address:{
+//         city:"pune",
+//         pincode:12345,
+//     },
+//     7:'Favnum'
+// }
 
 // userInformation.redaing()
 // console.log(userInformation.FavColors);

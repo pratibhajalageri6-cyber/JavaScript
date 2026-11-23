@@ -132,3 +132,5 @@ console.log("count is",count);
 //     console.log("JS is wonderful language",+i);
 //     i++;
 // }while(i<=10)
+
+
