@@ -36,22 +36,37 @@
 
 //!Passing data is Reference
 
-let obj1={
-    name:"Shree",
-    age:23
+// let obj1={
+//     name:"Shree",
+//     age:23
+// }
+// obj2= obj1
+// console.log(obj1);
+// console.log(obj2);
+
+// console.log("After Upadating >>>>");
+
+// obj2.age=100
+
+// console.log(obj1.age);
+// console.log(obj2);
+
+//!outer and inner Function
+
+function outerFunction(){
+    console.log("OuterFunction exe Started");
+    let impData=10
+    function innerFunction(){
+        console.log("InnerFunction exe Started");
+
+        console.log("Accessing outerfunction value:"+impData);
+        console.log("InnerFunction exe ended");
+    }
+    console.log("OuterFunction exe ended");
+    return innerFunction
 }
-obj2= obj1
-console.log(obj1);
-console.log(obj2);
-
-console.log("After Upadating >>>>");
-
-obj2.age=100
-
-console.log(obj1.age);
-console.log(obj2);
-
-
+let result=outerFunction()
+result()
 
 
 
